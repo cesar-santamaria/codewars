@@ -33,3 +33,11 @@ const highAndLow = (numbers) => {
 }
 
 console.log(highAndLow("11 23 -73 42"), "-73 42")
+
+//advanced
+/* 
+  function highAndLow(numbers) {
+    numbers = numbers.split(' ');
+    return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
+  } 
+*/
